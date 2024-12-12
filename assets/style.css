@@ -1,0 +1,119 @@
+html, body
+{
+    background-color: rgb(0, 0, 0);
+    height: 97%;
+    width: 97%;
+}
+.main
+{
+    width: 100%;
+    height: 100%;
+}
+.sub
+{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 15px;
+    /* border: 1px solid aqua; */
+    top: 20%;
+    left: 40%;
+}
+#startChat
+{
+    margin: 150px;
+    padding: 10px 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: yellow;
+    background-color: black;
+    border-radius: 10px;
+}
+#startChat:hover
+{
+    background-color: rgb(26, 26, 26);
+}
+.chat{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.inputs
+{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin: 10px;
+}
+.inputs > input
+{
+    width: 85%;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 20px;
+    border-color: yellow;
+    background-color: black;
+    color: yellow;
+}
+.inputs > #send
+{
+    width: 10%;
+    height: 50px;
+    margin: auto;
+    border-radius: 100px;
+    background-color: yellow;
+    font-size: 20px;
+    border: 5px solid black
+}
+.inputs > #send:hover
+{
+    background-color: rgb(234, 183, 0)
+}
+.chat .messages
+{
+    /* position: relative; */
+    height: 87%;
+    overflow-y: scroll;
+}
+.user
+{
+    /* position: absolute; */
+    width: 50%;
+    float: right;
+    /* right: 0; */
+    background-color: Yellow;
+    margin: 10px 5px;
+    padding: 5px;
+    border-start-start-radius: 15px;
+    border-start-end-radius: 15px;
+    border-end-start-radius: 15px;
+}
+.bot
+{
+    /* position: absolute; */
+    /* display: flex; */
+    float: left;
+    width: 50%;
+    /* left: 0; */
+    justify-content: end;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 10px 5px;
+    padding: 5px;
+    border-start-start-radius: 15px;
+    border-start-end-radius: 15px;
+    border-end-end-radius: 15px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track{
+    background-color: rgb(0, 0, 0);
+  }
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    width: 8px;
+    background: #fff201;
+  }
+  
